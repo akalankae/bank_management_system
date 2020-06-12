@@ -28,8 +28,8 @@
     ============
   savings | current | fixed-deposit 1 | fixed-deposit 2 | fixed-deposit 3
   interest rate
-  tax rate
-  method of interest calculation
+  tax rate [not implemented]
+  method of interest calculation [not implemented]
 
     Transaction
     ===========
@@ -37,7 +37,7 @@
   time
   deposit | withdrawal
   amount
-  ?description
+  ?description [not implemented]
 
     History (of transactions)
     =========================
