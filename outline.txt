@@ -1,0 +1,77 @@
+# outline.txt
+# Outline of the program
+
+
+#########################################################################
+#                                                                       #
+#                       data types                                      #
+#                                                                       #
+#########################################################################
+
+    Account
+    =======
+  number [unique]
+  owner
+  type
+  balance
+  history
+    
+    Owner
+    =====
+  name (full)
+  date of birth
+  identity number [unique]
+  phone number
+  address
+
+    Account Type
+    ============
+  savings | current | fixed-deposit 1 | fixed-deposit 2 | fixed-deposit 3
+  interest rate
+  tax rate
+  method of interest calculation
+
+    Transaction
+    ===========
+  date
+  time
+  deposit | withdrawal
+  amount
+  ?description
+
+    History (of transactions)
+    =========================
+  date, opened
+  array of transactions
+
+    Date
+    ====
+  year
+  month
+  date
+
+    Time
+    ====
+  hour
+  minute
+  second
+
+bank must have a record of,
+  list of accounts : array of accounts
+  list of customer-account mapping: ?collection of owner:account mappings
+
+not implemented:
+  monthly or annual changes in the account balance
+  shared accounts
+ 
+
+Main Menu:
+ * Welcome screen
+ * List of options to select from
+
+option: create new account
+option: update account
+option: manage transaction
+option: check account details
+option: remove account
+option: view list of customers
