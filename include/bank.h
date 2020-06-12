@@ -64,3 +64,7 @@ struct Account
     struct AccountType type;
     double acc_bal;
 };
+
+
+/* Function Prototypes */
+unsigned long hash_str(char * string);
